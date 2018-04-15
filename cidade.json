@@ -1,0 +1,19 @@
+[
+   {
+       "id": "1", 
+       "nome": "umuarma",
+       "imagem": "http://aciupr.com.br/img/umuarama_027.jpg"
+    },{
+       "id": "2", 
+       "nome": "Douradina",
+       "imagem": "http://www.madeirasa.com.br/wp-content/uploads/2017/10/Douradina.jpg"
+    },{
+       "id": "3", 
+       "nome": "Cascavel",
+       "imagem": "https://blog.euvoupassar.com.br/wp-content/uploads/2017/08/cascavel-pr.jpg"
+    },{
+       "id": "4", 
+       "nome": "Cianorte",
+       "imagem": "https://www.tribunadecianorte.com.br/fl/normal/35714-cianorte_aerea_-_anderson_19.jpg?node_id=35714"
+    }
+]
