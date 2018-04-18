@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Home</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+  <ion-item>
+    <button ion-button  (click)="carregarLista()">Buscar lista</button>
+  </ion-item>
+  <ion-list>
+    <button ion-item *ngFor="let item of lista; let i = index" (click)="excluirItem(i)">
+      <p class="nomecidade">{{ item.nome }}</p>
+      <img src="{{item.imagem}}" width="500" class="img-responsive cidadesfoto">
+    </button>
+  </ion-list>
+
+</ion-content>

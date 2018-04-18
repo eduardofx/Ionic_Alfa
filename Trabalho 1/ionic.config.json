@@ -1,0 +1,8 @@
+{
+  "name": "olamundo",
+  "app_id": "e5cf6a07",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
